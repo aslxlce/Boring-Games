@@ -94,6 +94,12 @@ section {
     margin: 4rem 0;
 }
 
+#burger {
+    padding: 2rem;
+    background-color: red;
+    display: none;
+}
+
 /* Hero */
 #hero {
     display: flex;
@@ -377,6 +383,18 @@ input[type="email"] {
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    #burger {
+        padding: 0.8rem;
+        background-color: red;
+        display: block;
+    }
+
+    #burger:hover,
+    nav ul:hover {
+        display: block;
+    }
+
     #hero {
         flex-direction: column;
         text-align: center;

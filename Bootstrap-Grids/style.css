@@ -7,7 +7,7 @@
     background-color: #0074d9;
 }
 .yellow {
-    background-color: #ffdc00;
+    background-color: black;
 }
 .red {
     background-color: #ff4136;
@@ -19,5 +19,8 @@
     background-color: #b10dc9;
 }
 .teal {
-    background-color: #39cccc;
+    background-color: gray;
+}
+.red {
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
 }
